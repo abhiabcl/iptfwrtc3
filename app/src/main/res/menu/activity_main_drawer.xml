@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_live_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Live Sharing" />
+        <item
+            android:id="@+id/nav_co_browsing"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Co-browsing" />
+        <item
+            android:id="@+id/nav_screen_sharing"
+            android:icon="@drawable/ic_screen_share_black_24dp"
+            android:title="Screen Sharing" />
+        <item
+            android:id="@+id/nav_tool"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_call_support"-->
+                <!--android:icon="@drawable/ic_phone_black_24dp"-->
+                <!--android:title="Call Support" />-->
+            <item
+                android:id="@+id/nav_share_session"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Share Session" />
+        </menu>
+    </item>
+
+</menu>
